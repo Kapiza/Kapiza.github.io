@@ -1,0 +1,46 @@
+.about_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 2rem;
+  width: 100%;
+}
+.about_content .block {
+  width: 384px;
+}
+.about_content .block .block_title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  position: relative;
+  top: 0.5rem;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #6592B8;
+  font-size: 2rem;
+}
+.about_content .block .block_info {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #7d7d7d;
+}
+.about_content .block .block_info .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.about_content .block .block_info .skills .skill {
+  padding: 0.25rem 0.5rem;
+  background-color: #424242;
+}
+
+@media (max-width: 384px) {
+  .about_content .block {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=about_styles.css.map */

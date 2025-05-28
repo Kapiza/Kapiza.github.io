@@ -1,0 +1,118 @@
+
+
+
+
+.works_content
+    display: flex
+    flex-direction: column
+    // margin-left: 20%
+    align-items: center
+    // align-content: end
+    color: white
+    gap: 15rem
+    padding: 10rem 0
+    width: 100%
+
+    .work
+        display: flex
+        align-items: center
+        width: 800px
+        .work_img
+            filter: drop-shadow(0px 2px 2px black)
+            width: 100%
+            opacity: 90%
+            overflow: clip;
+
+        .block
+            position: absolute
+
+            .block_title
+                z-index: 1
+                display: flex
+                align-items: center
+                gap: 0.5rem
+                padding: 0.25rem 0.5rem 
+                position: relative
+                top: 0.5rem
+                width: fit-content
+                margin: 0 auto
+                text-align: center
+                background-color: #65B8A5
+                font-size: 2rem
+            .block_info
+                // opacity: 65%
+                background-color: rgb(55, 90, 121, 0.65)
+                width: 600px
+                
+                padding: 1rem
+                font-size: 1.25rem
+                display: flex
+                flex-direction: column
+                gap: 1.5rem
+
+                p
+                    word-wrap: break-word
+
+                .skills
+                    display: flex
+                    flex-wrap: wrap
+                    gap: 0.5rem 1rem
+                    .skill
+                        // opacity: 
+                        padding: 0.25rem 0.5rem
+                        background-color: #424242
+        
+
+
+@media(min-width: 1080px)
+    
+    .works_content
+        .work
+            .right_block
+                right: 15vw
+            .left_block
+                    left: 15vw
+
+@media(max-width: 1080px)
+    
+    .works_content
+        .work
+            justify-content: center
+            align-items: center
+
+@media(max-width: 768px)
+    .works_content
+        .work
+            width: 600px
+            height: 337.5px
+            .block
+                .block_info
+                    width: 400px
+
+@media(max-width: 640px)
+    .works_content
+        .work
+            position: relative
+            width: 400px
+            height: 225px
+            .block
+                min-height: 100%
+                height: auto
+                width: 100%
+                .block_title
+                    all: none
+                    position: absolute
+                    top: -2.5rem;
+                    left: 50%;
+                    /* коррекция положения элемента */
+                    transform: translate(-50%);
+                    text-align: center
+                .block_info
+                    width: 100%
+                    height: 100%
+
+
+@media(max-width: 400px)
+    .works_content
+        .work
+            width: 100%

@@ -1,0 +1,48 @@
+@font-face 
+    font-family: "Zen_Old_Mincho"
+    src: url("../../public/fonts/ZenOldMincho-Regular.ttf")
+
+    
+
+.home_content
+    display: flex
+    flex-direction: column
+    align-items: center
+    // align-content: end
+    font-family: "Zen_Old_Mincho" 
+    color: black
+
+    .headshot
+        height: 256px
+        width: 256px
+        border-radius: 3rem
+        background-color: #DEDEDE
+
+    .greetings
+        text-align: center
+        font-size: 4rem
+
+    .who_am_i
+        padding: 0 1rem
+        color: white
+        background-color: #6592B8
+        font-size: 3rem
+        text-align: center
+
+    
+@media(max-width: 1080px)
+    .home_content
+        .greetings
+            font-size: 3rem
+        .who_am_i
+            font-size: 2.5rem
+
+@media(max-width: 640px)
+    .home_content
+        .headshot
+            height: 192px
+            width: 192px
+        .greetings
+            font-size: 2rem
+        .who_am_i
+            font-size: 1.5rem
