@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header>
         <div className="header_container">
-            <a className="header_title" href="index.html">Дмитрий Сергеев | Портфолио</a>
+            <a className="header_title" href="/">Дмитрий Сергеев | Портфолио</a>
             <nav id="nav" className="nav">
                 <Link to='/home'> Home </Link>
                 <Link to='/about'> About</Link>
