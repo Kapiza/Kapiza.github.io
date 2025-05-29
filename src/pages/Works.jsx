@@ -129,7 +129,7 @@ const Works = () => {
               <div className="block_info">
                   <div className="skills">
                       <span className="skill">
-                          JS
+                          React
                       </span>                    
                       <span className="skill">
                           Sass
